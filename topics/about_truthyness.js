@@ -17,5 +17,5 @@ test("truthyness of zero", function () {
 
 test("truthyness of null", function () {
   var nullIsTruthy = null ? true : false;
-  equal(__, nullIsTruthy, "is null truthy?");
+  equal(false, nullIsTruthy, "is null truthy?");
 });
